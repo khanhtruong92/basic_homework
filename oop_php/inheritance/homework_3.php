@@ -14,7 +14,7 @@ class User
     }
 }
 
-class Admin extends User 
+class Admin extends User
 {
     public function echo()
     {
