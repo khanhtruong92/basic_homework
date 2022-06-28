@@ -10,5 +10,3 @@ $array = [8, 22, 7, 9, 31, 5, 13];
 for ($i = 0; $i < count($array); $i++) {
     echo $array[$i] . " ";
 }
-
-//echo 5 7 8 9 13 22 31
