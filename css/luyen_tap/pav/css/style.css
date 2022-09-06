@@ -1,0 +1,142 @@
+body {
+  font-family: sans-serif;
+  font-size: 14px;
+  padding: 0;
+  margin: 0;
+}
+
+/* #layout {} */
+/* #header */
+#header {
+  text-transform: uppercase;
+  border-bottom: 3px solid black;
+  text-align: center;
+}
+
+#header .title {
+  font-size: 30px;
+  color: #0c3862;
+}
+
+#header .sub-title {
+  font-weight: 100;
+}
+
+/* #main-content */
+/* .blog */
+.blog table {
+  padding-top: 20px;
+}
+
+.blog-published-prefix,
+.blog-published {
+  font-style: italic;
+}
+
+.blog-published {
+  color: #7c7c7c;
+}
+
+.blog-preview {
+  padding-left: 15px;
+}
+
+.blog-preview .blog-title a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0c3862;
+}
+
+.blog-preview .blog-btb-readmore {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  background-color: #0c3862;
+  color: white;
+}
+
+/* #pagination */
+#pagination a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #0c3862;
+}
+
+#pagination .newer {
+  text-align: right;
+}
+
+#pagination {
+  margin: 30px 0;
+}
+
+/* #right-sidebar */
+#right-sidebar .search-group {
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+
+.search-group input {
+  height: 30px;
+  width: 60%;
+}
+
+.search-group button {
+  height: 36px;
+  width: 35%;
+  text-transform: uppercase;
+  background-color: #0c3862;
+  color: white;
+}
+
+#right-sidebar h3 {
+  background-color: #0c3862;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  margin: 0;
+}
+
+#categories-table tr td ul {
+  padding: 5px;
+}
+
+#categories-table tr td ul li {
+  list-style-type: none;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+#categories-table tr td ul li:last-child {
+  border-bottom: none;
+}
+
+#categories-table tr td ul li a {
+  text-decoration: none;
+  color: #0c3862;
+  font-weight: bold;
+  font-size: large;
+}
+
+/* #popular-table */
+#popular-table ul {
+  padding: 5px;
+}
+
+#popular-table ul li {
+  list-style-type: none;
+  border-bottom: 2px solid #f7f7f7;
+}
+
+#popular-table ul li:last-child {
+  border-bottom: none;
+}
+
+.popular-item img {
+  width: 90px;
+  height: 60px;
+}
+
+.popular-item a {
+  text-decoration: none;
+  color: #0c3862;
+  font-weight: bold;
+}
