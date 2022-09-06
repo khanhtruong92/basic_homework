@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+    <style>
+        .red,
+        .green,
+        .blue {
+            position: absolute;
+            width: 100px;
+            color: white;
+            line-height: 100px;
+            text-align: center;
+        }
+
+        /* loại bỏ z-index của red-box sẽ đạt được yêu cầu của đề bài */
+        .red {
+            /* z-index: 1; */
+            top: 20px;
+            left: 20px;
+            background: red;
+        }
+
+        .green {
+            top: 60px;
+            left: 60px;
+            background: green;
+        }
+
+        .blue {
+            top: 100px;
+            left: 100px;
+            background: blue;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <span class="red">Red</span>
+    </div>
+    <div>
+        <span class="green">Green</span>
+    </div>
+    <div>
+        <span class="blue">Blue</span>
+    </div>
+
+</body>
+
+</html>
