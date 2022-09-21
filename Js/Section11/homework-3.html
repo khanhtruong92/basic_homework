@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework</title>
+</head>
+<body>
+    <h2>Change the text of the first element that has the class name "test"</h2>
+    <p class="test">paragraphs1</p>
+    <p class="test">paragraphs2</p>
+    <p class="test">paragraphs3</p>
+    <p class="test">paragraphs4</p>
+    <p class="test">paragraphs5</p>
+    <script>
+        const text = document.getElementsByClassName("test");
+        text[0].innerHTML = "Hello";
+    </script>
+</body>
+</html>
