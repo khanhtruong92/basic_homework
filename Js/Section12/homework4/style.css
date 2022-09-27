@@ -1,0 +1,66 @@
+body {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 70%;
+    margin: auto;
+}
+#head-grocery {
+    margin-top: 30px;
+    /* border: 1px solid red; */
+    font-weight: bold;
+    font-size: 30px;
+    letter-spacing: 3px;
+    color: rgb(10	45	70	);
+}
+#box-input {
+    margin-bottom: 35px;
+}
+input {
+    border-radius: 9px;
+    width: 75%;
+    height: 30px;
+    font-size: 20px;
+    padding: 5px;
+    border:3px solid rgb(7 87 192);
+}
+ #enter {
+    width: 15%;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(156	208	245	);
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+ul {
+    width: 88%;
+    margin-top: 30px;
+    padding: 0;
+    margin: auto;
+}
+li {
+    list-style-type: none;
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin-top:15px;
+    font-size: 20px;
+}
+#list-items button {
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+    font-size: 20px;
+}
+.edit {
+    color: rgb(100	226	115	);
+}
+.delete {
+    color: rgb(225	95	99	);
+}
+#clear-all {
+    letter-spacing: 5px;
+    color: rgb(225	99	105	);
+    margin-top: 20px;
+}
