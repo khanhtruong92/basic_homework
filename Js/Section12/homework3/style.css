@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background-color: rgb(52	151	181	);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#title-notes h3 {
+    text-transform: uppercase;
+    color: white;
+    font-size: 55px;
+    font-weight: 900;
+    padding: 30px;
+}
+#title-notes p {
+    color: rgb(73	214	112	);
+    padding-bottom: 20px;
+}
+#title-notes p:nth-child(2) {
+    color: rgb(234	194	100	);
+}
+#title-notes p:last-child {
+    color: rgb(30	87	102	);
+}
+#newtask input {
+    width: 55%;
+    height: 45px;
+    padding: 12px;
+    border-radius: 5px;
+    font-size: 25px;
+    border: none;
+}
+#newtask {
+    display: flex;
+    position: relative;
+    text-align: center;
+    left: 20%;
+}
+#newtask input:focus{
+    outline: none;
+    background-color: rgb(234	194	100	);
+}
+#newtask button {
+    width: 5%;
+    height: 45px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 10px;
+}
+#newtask i {
+    font-size: 22px;
+}
+#newtask button:focus {
+    background-color: rgb(29	85	99	);
+}
+#tasks {
+    width: 100%;
+    background-color: rgb(52	151	181	);
+    /* background-color: white; */
+    padding: 30px 22%;
+}
+.task {
+    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid rgb(31	89	104	);
+    cursor: pointer;
+    background-color: rgb(72	177	196	);
+    height: 50px;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+.task button {
+    background-color: rgb(72	177	196	);
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    margin-right: 6px;
+}
